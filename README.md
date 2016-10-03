@@ -138,8 +138,8 @@ iOS数据安全-->base64、md5、AES、DES、RSA
 
 ## Subsequent【后续】
 
-【我也是对所花费时间的一个总结】
-学习总结--> [GitHub](https://github.com/CustomPBWaters)(现在代码少点，总结好 待上传)、[白开水Blog](https://custompbwaters.github.io)、[白开水ln-简书](http://www.jianshu.com/u/fd745d76c816)
+【我也是对所花费时间的一个总结】  
+学习总结--> [GitHub](https://github.com/CustomPBWaters)(现在代码少点，总结好 待上传)、[白开水Blog](https://custompbwaters.github.io)、[白开水ln-简书](http://www.jianshu.com/u/fd745d76c816)  
 一劳永逸-->
 
 我只是个【有思想的代码搬运工】加上【自己的学习总结】写出来的文章。  
