@@ -146,7 +146,7 @@ iOS数据安全-->base64、md5、AES、DES、RSA
 
 附上总结写的小样([Demo](https://github.com/CustomPBWaters/DataSecurity-Encryption))，
 
-[「重要的部分代码中都有相应的注释和文字打印，运行程序可以很直观的表现」]()  
+[「重要的部分代码中都有相应的注解和文字打印，运行程序可以很直观的表现」]()  
 如果「你喜欢 或 有帮助」，可否点个 [Star](https://github.com/CustomPBWaters)
 
 
