@@ -1,4 +1,4 @@
-//
+// 
 //  EncryptionTools.h
 /**
  对称加密算法 
