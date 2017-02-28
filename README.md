@@ -22,6 +22,7 @@ iOS数据安全--base64、md5、AES、DES、RSA
 | HTTPS | HTTP+SSL加密协议 |
 
 #### 常用加密方式
+
 |常用加密方式 |
 |:- |
 | 1.通过简单 BASE64编码 防止数据明文传输 |
