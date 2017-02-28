@@ -73,9 +73,7 @@
 
 
 -(void)DES
-{
-    //生成一个随机的8位字符串，作为des加密数据的key,对数据进行des加密，对加密后的数据用公钥再进行一次rsa加密
-    
+{    
     NSString *str = [DES3Util encryptUseDES:@"LN123" keyString:@"syh"];
     NSLog(@"DES公钥加密数据-->\n%@",str);
     
