@@ -2,6 +2,7 @@
 iOS数据安全--base64、md5、AES、DES、RSA
 
 相信很多开发者跟我当初一样，只是根据项目经理或者文档指示进行加密，简单会使用 但并不知道加密知识体系和内在原理，于是整理了一份相关资料，  
+
 本篇文章主要从【iOS 开发常见加密】学习总结，方法都以封装成类可以直接拿走调用。  
 时间有限，知识并未全覆盖，有遗漏或者错误，忘指正。
 
@@ -43,12 +44,17 @@ iOS数据安全--base64、md5、AES、DES、RSA
 ```
 @code
 1.打开终端，切换到自己想输出的文件夹下
+
 2.输入指令:openssl（openssl是生成各种秘钥的工具，mac已经嵌入)
+
 3.输入指令:genrsa -out rsa_private_key.pem 1024 (生成私钥，java端使用的)
+
 4.输入指令:rsa -in rsa_private_key.pem -out rsa_public_key.pem -pubout (生成公钥)
+
 5.输入指令:pkcs8 -topk8 -in rsa_private_key.pem -out pkcs8_rsa_private_key.pem -nocrypt(私钥转格式，在ios端使用私钥解密时用这个私钥)
 
-注意:在MAC上生成三个.pem格式的文件，一个公钥，两个私钥，都可以在终端通过指令vim xxx.pem 打开，里面是字符串，第三步生成的私钥是java端用来解密数据的，第五步转换格式的私钥iOS端可以用来调试公钥、私钥解密（因为私钥不留在客户端）
+注意:在MAC上生成三个.pem格式的文件，一个公钥，两个私钥，都可以在终端通过指令vim xxx.pem 打开，里面是字符串，第三步生成的私钥是java端用来解密数据的，第五步转换格式的私钥iOS端可以用来调试公钥、私钥解密（因为私钥不留在客户端）  
+
 iOS端公钥加密私钥解密、java端公钥加密私钥解密，java端私钥加密公钥解密都容易做到，iOS不能私钥加密公钥解密，只能用于验签
 @endcode
 ```
@@ -121,12 +127,12 @@ iOS端公钥加密私钥解密、java端公钥加密私钥解密，java端私钥
 
 ## subsequent【后续】
 
-【我也是对所花费时间的一个总结】
-学习总结-->[GitHub](https://github.com/CustomPBWaters)(现在代码少点，总结好 待上传)、[Blog](https://custompbwaters.github.io)、[白开水ln-简书](http://www.jianshu.com/u/fd745d76c816)
-一劳永逸-->
-我只是个【有思想的代码搬运工】加上【自己的学习总结】写出来的文章。
-附上总结写的小样([Demo](https://github.com/CustomPBWaters/DataSecurity-Encryption))，
-【重要的部分代码中都有相应的注释和文字打印，运行程序可以很直观的表现】。
+【我也是对所花费时间的一个总结】  
+学习总结-->[GitHub](https://github.com/CustomPBWaters)(现在代码少点，总结好 待上传)、[Blog](https://custompbwaters.github.io)、[白开水ln-简书](http://www.jianshu.com/u/fd745d76c816)  
+一劳永逸-->  
+我只是个【有思想的代码搬运工】加上【自己的学习总结】写出来的文章。  
+附上总结写的小样([Demo](https://github.com/CustomPBWaters/DataSecurity-Encryption))，  
+【重要的部分代码中都有相应的注释和文字打印，运行程序可以很直观的表现】。  
 如果你喜欢或有帮助，可否点个 [Star](https://github.com/CustomPBWaters)
 
 
