@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  DataSecurity
 //
-//  Created by LN on 16/5/28.
-//  Copyright © 2016年 Learning point. All rights reserved.
+//  Created by 简书:白开水ln on 15/-/-.
+//  Copyright © 2015年（https://custompbwaters.github.io）All rights reserved.
 //
 
 #import "AppDelegate.h"
