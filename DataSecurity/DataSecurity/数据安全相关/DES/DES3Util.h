@@ -1,9 +1,12 @@
 //
 //  DES3Util.h
-//  DES
+//  白开水ln（https://github.com/CustomPBWaters）
 //
-//  Created by Toni on 12-12-27.
-//  Copyright (c) 2012年 sinofreely. All rights reserved.
+//  Created by 【Plain Boiled Water ln】 on Elegant programming16.
+//  Copyright © Unauthorized shall（https://custompbwaters.github.io）not be reproduced reprinted.
+//
+//  @PBWLN_LICENSE_HEADER_END@
+//
 /**
  *  终端测试指令
  *

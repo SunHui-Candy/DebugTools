@@ -1,9 +1,11 @@
 //
 //  NSData+Base64.h
-//  Gurpartap Singh
+//  白开水ln（https://github.com/CustomPBWaters）
 //
-//  Created by Gurpartap Singh on 06/05/12.
-//  Copyright (c) 2012 Gurpartap Singh. All rights reserved.
+//  Created by 【Plain Boiled Water ln】 on Elegant programming16.
+//  Copyright © Unauthorized shall（https://custompbwaters.github.io）not be reproduced reprinted.
+//
+//  @PBWLN_LICENSE_HEADER_END@
 //
 
 #import "NSData+Base64.h"
