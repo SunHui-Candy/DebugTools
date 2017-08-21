@@ -122,10 +122,10 @@
 ![iOS数据安全相关.gif](http://upload-images.jianshu.io/upload_images/2230763-5ff2f3b6e380f7f7.gif?imageMogr2/auto-orient/strip)
 
 
-对于数据安全有太多的东西值得我们去学习推敲，方方面面都透露着数据安全的重要性 和 我们学习的必要性。
+- 对于数据安全有太多的东西值得我们去学习推敲，方方面面都透露着数据安全的重要性 和 我们学习的必要性。
 
 
-
+- 请为 便捷高效你的阅读 [赞赏支持](http://upload-images.jianshu.io/upload_images/2230763-207aed82693a7fa4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) or Star一波 或 微众@白开水ln；
  
 
 
