@@ -1,9 +1,9 @@
-## DataSecurity-Encryption
+ 
 
 相信很多开发者跟我当初一样，只是根据项目经理或者文档指示进行加密，简单会使用 但并不知道加密知识体系和内在原理，于是整理了一份相关资料，方法都以封装成类可以直接拿走调用。
 
 
-## encryption【加密介绍】
+## encryption
 
 数据安全的原则
 - 在网络上`不允许`传输用户隐私数据的`明文`,（即:App网络传输安全，指对数据从客户端传输到Server中间过程的加密，防止网络世界当中其他节点对数据的窃听）。
@@ -125,7 +125,7 @@
 - 对于数据安全有太多的东西值得我们去学习推敲，方方面面都透露着数据安全的重要性 和 我们学习的必要性。
 
 
-- 请为 便捷高效你的阅读 [赞赏支持](http://upload-images.jianshu.io/upload_images/2230763-207aed82693a7fa4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) or Star一波 或 微众@白开水ln；
+- 喜欢可 [赞赏](http://upload-images.jianshu.io/upload_images/2230763-bf7f4af3c678980b.gif?imageMogr2/auto-orient/strip) ，点击右上角的 star 和 watch 按钮，可以收藏本仓库，并在文档、issue、Demo更新时收到邮件通知。
  
 
 
