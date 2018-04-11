@@ -1,10 +1,7 @@
 //
-//  AESCrypt.h 
-//  Gurpartap Singh
-//
-//  Created by Gurpartap Singh on 06/05/12.
-//  Copyright (c) 2012 Gurpartap Singh
-// 
+//  AESCrypt.h
+//  WechatPublic-Codeidea | github.com/CoderLN
+
 /**
  *  终端测试指令
  *

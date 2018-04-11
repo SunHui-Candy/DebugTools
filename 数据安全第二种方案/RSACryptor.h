@@ -1,5 +1,7 @@
 //
 //  RSACryptor.h
+//  WechatPublic-Codeidea | github.com/CoderLN
+
 /**
  非对称加密算法
  RSA

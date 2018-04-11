@@ -1,5 +1,7 @@
-// 
+//
 //  EncryptionTools.h
+//  WechatPublic-Codeidea | github.com/CoderLN
+
 /**
  对称加密算法 
  DES、AES

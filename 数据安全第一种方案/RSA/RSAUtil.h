@@ -1,9 +1,7 @@
 //
 //  RSAUtil.h
-//  Encryption
-//
-//  Created by LN on 16/5/28.
-//  Copyright © 2016年 Learning point. All rights reserved.
+//  WechatPublic-Codeidea | github.com/CoderLN
+
 /**
  # MAC上生成公钥、私钥的方法
  @code

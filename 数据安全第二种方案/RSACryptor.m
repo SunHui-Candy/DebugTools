@@ -1,6 +1,6 @@
 //
 //  RSACryptor.m
-//
+//  WechatPublic-Codeidea | github.com/CoderLN
 
 #import "RSACryptor.h"
 

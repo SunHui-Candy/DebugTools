@@ -1,11 +1,11 @@
 //
 //  NSString+Hash.h
+//  WechatPublic-Codeidea | github.com/CoderLN
 /**
  1.编码方案
  base64
  2.哈希(散列)函数
  MD5、SHA1、SHA256、SHA512、hmacMD5
- 
  */
 
 #import <Foundation/Foundation.h>
@@ -27,6 +27,7 @@
  */
 - (NSString *)md5String;
 
+
 /**
  *  散列函数--sha1对字符串加密
  *
@@ -38,6 +39,7 @@
  *  @return 40个字符的SHA1散列字符串
  */
 - (NSString *)sha1String;
+
 
 /**
  *  散列函数--sha256对字符串加密
@@ -51,6 +53,7 @@
  */
 - (NSString *)sha256String;
 
+
 /**
  *  散列函数--sha512对字符串加密
  *
@@ -62,6 +65,7 @@
  *  @return 128个字符的SHA 512散列字符串
  */
 - (NSString *)sha512String;
+
 
 #pragma mark - HMAC 散列函数
 /**
@@ -76,6 +80,7 @@
  */
 - (NSString *)hmacMD5StringWithKey:(NSString *)key;
 
+
 /**
  *  散列函数--HMAC sha1加密
  *
@@ -87,6 +92,7 @@
  *  @return 40个字符的HMAC SHA1散列字符串
  */
 - (NSString *)hmacSHA1StringWithKey:(NSString *)key;
+
 
 /**
  *  散列函数--HMAC sha256加密
@@ -100,6 +106,7 @@
  */
 - (NSString *)hmacSHA256StringWithKey:(NSString *)key;
 
+
 /**
  *  散列函数--HMAC sha512加密
  *
@@ -111,6 +118,7 @@
  *  @return 128个字符的HMAC SHA512散列字符串
  */
 - (NSString *)hmacSHA512StringWithKey:(NSString *)key;
+
 
 
 #pragma mark - 文件加密
@@ -127,6 +135,7 @@
  */
 - (NSString *)fileMD5Hash;
 
+
 /**
  *  散列函数--sha1对文件加密
  *
@@ -138,6 +147,7 @@
  *  @return 40个字符的SHA1散列字符串
  */
 - (NSString *)fileSHA1Hash;
+
 
 /**
  *  散列函数--sha256对文件加密
@@ -151,6 +161,7 @@
  */
 - (NSString *)fileSHA256Hash;
 
+
 /**
  *  散列函数--sha512对文件加密
  *
@@ -163,6 +174,9 @@
  */
 - (NSString *)fileSHA512Hash;
 
+
+
+
 // 对一个字符串进行base64编码,并且返回
 - (NSString *)base64EncodeString;
 
@@ -172,3 +186,6 @@
 
 
 @end
+
+
+

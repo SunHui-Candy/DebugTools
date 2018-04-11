@@ -1,10 +1,6 @@
 //
 //  DES3Util.m
-//  DES
-//
-//  Created by Toni on 12-12-27.
-//  Copyright (c) 2012年 sinofreely. All rights reserved.
-//
+//  WechatPublic-Codeidea | github.com/CoderLN
 
 #import "DES3Util.h"
 #define gkey            @"app_key_ioved1cm!@#$5678"

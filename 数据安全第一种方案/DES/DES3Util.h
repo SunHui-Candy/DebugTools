@@ -1,9 +1,7 @@
 //
 //  DES3Util.h
-//  DES
-//
-//  Created by Toni on 12-12-27.
-//  Copyright (c) 2012年 sinofreely. All rights reserved.
+//  WechatPublic-Codeidea | github.com/CoderLN
+
 /**
  *  终端测试指令
  *
@@ -33,7 +31,7 @@
 #import <Foundation/Foundation.h>
 #import "GTMBase64.h"
 #import <CommonCrypto/CommonCryptor.h>
-#import "NSString+NSReplace.h"
+//#import "NSString+NSReplace.h"
 @interface DES3Util : NSObject
 
 /**

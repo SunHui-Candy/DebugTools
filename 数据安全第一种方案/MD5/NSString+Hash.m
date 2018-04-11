@@ -1,6 +1,6 @@
 //
 //  NSString+Hash.m
-//
+//  WechatPublic-Codeidea | github.com/CoderLN
 
 #import "NSString+Hash.h"
 #import <CommonCrypto/CommonCrypto.h>
@@ -49,6 +49,9 @@
     return [self stringFromBytes:buffer length:CC_SHA512_DIGEST_LENGTH];
 }
 
+
+
+
 #pragma mark - HMAC 字符串加密
 - (NSString *)hmacMD5StringWithKey:(NSString *)key
 {
@@ -93,6 +96,11 @@
     
     return [self stringFromBytes:buffer length:CC_SHA512_DIGEST_LENGTH];
 }
+
+
+
+
+
 
 #pragma mark - 文件加密
 
@@ -214,6 +222,9 @@
     return [self stringFromBytes:buffer length:CC_SHA512_DIGEST_LENGTH];
 }
 
+
+
+
 #pragma mark - 
 /**
  *  返回二进制 Bytes 流的字符串表示形式
@@ -234,6 +245,11 @@
     return [strM copy];
 }
 
+
+
+
+
+
 #pragma mark - base64编码和解码
 
 // 对一个字符串进行base64编码,并且返回
@@ -245,6 +261,7 @@
     //2.对二进制数据进行base64编码,完成之后返回字符串
     return [data base64EncodedStringWithOptions:0];
 }
+
 
 // 对base64编码之后的字符串解码,并且返回
 -(NSString *)base64DecodeString

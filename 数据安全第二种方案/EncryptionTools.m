@@ -1,6 +1,6 @@
 //
 //  EncryptionTools.m
-//
+//  WechatPublic-Codeidea | github.com/CoderLN
 
 #import "EncryptionTools.h"
 

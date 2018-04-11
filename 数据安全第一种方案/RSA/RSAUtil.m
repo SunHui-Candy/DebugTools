@@ -1,10 +1,6 @@
 //
 //  RSAUtil.m
-//  Encryption
-//
-//  Created by LN on 16/5/28.
-//  Copyright © 2016年 Learning point. All rights reserved.
-//
+//  WechatPublic-Codeidea | github.com/CoderLN
 
 #import "RSAUtil.h"
 #import <Security/Security.h>
