@@ -1,8 +1,3 @@
- 
-
-相信很多开发者跟我当初一样，只是根据项目经理或者文档指示进行加密，简单会使用 但并不知道加密知识体系和内在原理，于是整理了一份相关资料，方法都以封装成类可以直接拿走调用。
-
-
 ## encryption
 
 数据安全的原则
@@ -122,10 +117,5 @@
 ![iOS数据安全相关.gif](http://upload-images.jianshu.io/upload_images/2230763-5ff2f3b6e380f7f7.gif?imageMogr2/auto-orient/strip)
 
 
-- 对于数据安全有太多的东西值得我们去学习推敲，方方面面都透露着数据安全的重要性 和 我们学习的必要性。
-
-
-- 喜欢可 [赞赏](http://upload-images.jianshu.io/upload_images/2230763-bf7f4af3c678980b.gif?imageMogr2/auto-orient/strip) ，点击右上角的 star 和 watch 按钮，可以收藏本仓库，并在文档、issue、Demo更新时收到邮件通知。
- 
-
-
+##### [不知名开发者](https://upload-images.jianshu.io/upload_images/2230763-a98b15f328e7cf69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+###### - 各位厂友，由于「时间 & 知识」有限，总结的文章难免有「未全、不足」，该模块将系统化学习，后续「坚持新增文章，替换、补充文章内容」.
