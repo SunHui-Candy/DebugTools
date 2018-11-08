@@ -1,6 +1,5 @@
 //
 //  DES3Util.m
-//  WechatPublic-Codeidea | github.com/CoderLN
 
 #import "DES3Util.h"
 #define gkey            @"app_key_ioved1cm!@#$5678"

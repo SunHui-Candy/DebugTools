@@ -1,6 +1,6 @@
 //
 //  NSData+Base64.h
-//  WechatPublic-Codeidea | github.com/CoderLN
+//  Public_不知名开发者
 
 #import "NSData+Base64.h"
 

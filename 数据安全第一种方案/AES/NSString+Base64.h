@@ -1,6 +1,6 @@
 //
 //  NSString+Base64.h
-//  WechatPublic-Codeidea | github.com/CoderLN
+//  Public_不知名开发者
 
 #import <Foundation/NSString.h>
 #import <Foundation/Foundation.h>

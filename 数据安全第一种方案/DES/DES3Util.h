@@ -1,6 +1,5 @@
 //
 //  DES3Util.h
-//  WechatPublic-Codeidea | github.com/CoderLN
 
 /**
  *  终端测试指令

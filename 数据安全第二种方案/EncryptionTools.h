@@ -1,6 +1,7 @@
 //
 //  EncryptionTools.h
-//  WechatPublic-Codeidea | github.com/CoderLN
+//  Public_不知名开发者
+
 
 /**
  对称加密算法 

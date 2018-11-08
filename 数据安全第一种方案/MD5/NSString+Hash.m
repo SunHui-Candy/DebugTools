@@ -1,6 +1,6 @@
 //
 //  NSString+Hash.m
-//  WechatPublic-Codeidea | github.com/CoderLN
+//  Public_不知名开发者
 
 #import "NSString+Hash.h"
 #import <CommonCrypto/CommonCrypto.h>

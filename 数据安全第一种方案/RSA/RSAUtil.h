@@ -1,6 +1,5 @@
 //
 //  RSAUtil.h
-//  WechatPublic-Codeidea | github.com/CoderLN
 
 /**
  # MAC上生成公钥、私钥的方法

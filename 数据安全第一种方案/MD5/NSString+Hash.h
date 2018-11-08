@@ -1,6 +1,7 @@
 //
 //  NSString+Hash.h
-//  WechatPublic-Codeidea | github.com/CoderLN
+//  Public_不知名开发者
+
 /**
  1.编码方案
  base64

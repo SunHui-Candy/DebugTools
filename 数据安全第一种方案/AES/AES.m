@@ -1,6 +1,6 @@
 //
 //  AESCrypt.m
-//  WechatPublic-Codeidea | github.com/CoderLN
+//  Public_不知名开发者
 
 #import "AES.h"
 

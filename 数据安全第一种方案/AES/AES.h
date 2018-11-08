@@ -1,6 +1,6 @@
 //
 //  AESCrypt.h
-//  WechatPublic-Codeidea | github.com/CoderLN
+//  Public_不知名开发者
 
 /**
  *  终端测试指令

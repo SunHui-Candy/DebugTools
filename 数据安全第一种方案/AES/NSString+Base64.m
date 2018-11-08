@@ -1,6 +1,6 @@
 //
 //  NSStringAdditions.m
-//  WechatPublic-Codeidea | github.com/CoderLN
+//  Public_不知名开发者
 
 #import "NSString+Base64.h"
 

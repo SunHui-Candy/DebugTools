@@ -1,6 +1,6 @@
 //
 //  RSAUtil.m
-//  WechatPublic-Codeidea | github.com/CoderLN
+
 
 #import "RSAUtil.h"
 #import <Security/Security.h>
