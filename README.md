@@ -1,5 +1,3 @@
-## encryption
-
 数据安全的原则
 - 在网络上`不允许`传输用户隐私数据的`明文`,（即:App网络传输安全，指对数据从客户端传输到Server中间过程的加密，防止网络世界当中其他节点对数据的窃听）。
 
@@ -112,9 +110,6 @@
 + (NSString *)decryptString:(NSString *)str privateKey:(NSString *)privKey;
 + (NSData *)decryptData:(NSData *)data privateKey:(NSString *)privKey;
 ```
-
-## 效果图
-![iOS数据安全相关.gif](http://upload-images.jianshu.io/upload_images/2230763-5ff2f3b6e380f7f7.gif?imageMogr2/auto-orient/strip)
 
 
 ##### [不知名开发者](https://upload-images.jianshu.io/upload_images/2230763-a98b15f328e7cf69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

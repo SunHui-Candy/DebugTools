@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761D95BF21AB7B9900BD0AA8 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 761D95BE21AB7B9900BD0AA8 /* image1.png */; };
+		763AF47E21ACC4B20063F1F9 /* NSString+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AF47D21ACC4B20063F1F9 /* NSString+Base64Additions.m */; };
+		76F1AC6E21A7E890004856BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F1AC6C21A7E890004856BF /* Main.storyboard */; };
+		76F1AC7021A7E892004856BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F1AC6F21A7E892004856BF /* Assets.xcassets */; };
+		76F1AC7321A7E892004856BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F1AC7121A7E892004856BF /* LaunchScreen.storyboard */; };
+		76F1AC8221A7E8EC004856BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1AC7E21A7E8EB004856BF /* ViewController.m */; };
+		76F1AC8321A7E8EC004856BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1AC7F21A7E8EB004856BF /* main.m */; };
+		76F1AC8421A7E8EC004856BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1AC8021A7E8EB004856BF /* AppDelegate.m */; };
+		76F1AC8821A7EBA2004856BF /* LNCommonEncryptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1AC8721A7EBA2004856BF /* LNCommonEncryptVC.m */; };
+		76F1ACB721A7EDD8004856BF /* LNCommonEncryptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76F1ACB621A7EDD8004856BF /* LNCommonEncryptVC.xib */; };
+		76F1ACD821A7EFCB004856BF /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1ACBB21A7EFCB004856BF /* NSString+Hash.m */; };
+		76F1ACD921A7EFCB004856BF /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1ACC121A7EFCB004856BF /* GTMBase64.m */; };
+		76F1ACDA21A7EFCB004856BF /* DES3Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1ACC221A7EFCB004856BF /* DES3Util.m */; };
+		76F1ACDB21A7EFCB004856BF /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1ACC421A7EFCB004856BF /* RSAUtil.m */; };
+		76F1ACDC21A7EFCB004856BF /* AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1ACC721A7EFCB004856BF /* AES.m */; };
+		76F1ACDE21A7EFCB004856BF /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1ACCD21A7EFCB004856BF /* NSData+CommonCrypto.m */; };
+		76F1ACDF21A7EFCB004856BF /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1ACCE21A7EFCB004856BF /* NSData+Base64Additions.m */; };
+		76F1ACE021A7EFCB004856BF /* EncryptionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1ACD221A7EFCB004856BF /* EncryptionTool.m */; };
+		76F1ACE121A7EFCB004856BF /* RSAEncryptionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1ACD321A7EFCB004856BF /* RSAEncryptionTool.m */; };
+		76F1ACE221A7EFCB004856BF /* pkcs8_rsa_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 76F1ACD521A7EFCB004856BF /* pkcs8_rsa_private_key.pem */; };
+		76F1ACE321A7EFCB004856BF /* rsa_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 76F1ACD621A7EFCB004856BF /* rsa_private_key.pem */; };
+		76F1ACE421A7EFCB004856BF /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 76F1ACD721A7EFCB004856BF /* rsa_public_key.pem */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		761D95BE21AB7B9900BD0AA8 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		763AF47C21ACC4B20063F1F9 /* NSString+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64Additions.h"; sourceTree = "<group>"; };
+		763AF47D21ACC4B20063F1F9 /* NSString+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64Additions.m"; sourceTree = "<group>"; };
+		763AF47F21ACC5A50063F1F9 /* LNDataSecurity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LNDataSecurity.entitlements; sourceTree = "<group>"; };
+		76F1AC6321A7E890004856BF /* LNDataSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNDataSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F1AC6D21A7E890004856BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76F1AC6F21A7E892004856BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76F1AC7221A7E892004856BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76F1AC7421A7E892004856BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F1AC7D21A7E8EB004856BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76F1AC7E21A7E8EB004856BF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76F1AC7F21A7E8EB004856BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76F1AC8021A7E8EB004856BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76F1AC8121A7E8EB004856BF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76F1AC8621A7EBA2004856BF /* LNCommonEncryptVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNCommonEncryptVC.h; sourceTree = "<group>"; };
+		76F1AC8721A7EBA2004856BF /* LNCommonEncryptVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNCommonEncryptVC.m; sourceTree = "<group>"; };
+		76F1ACB621A7EDD8004856BF /* LNCommonEncryptVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LNCommonEncryptVC.xib; sourceTree = "<group>"; };
+		76F1ACBB21A7EFCB004856BF /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		76F1ACBC21A7EFCB004856BF /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		76F1ACBE21A7EFCB004856BF /* DES3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES3Util.h; sourceTree = "<group>"; };
+		76F1ACBF21A7EFCB004856BF /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		76F1ACC021A7EFCB004856BF /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		76F1ACC121A7EFCB004856BF /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		76F1ACC221A7EFCB004856BF /* DES3Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES3Util.m; sourceTree = "<group>"; };
+		76F1ACC421A7EFCB004856BF /* RSAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAUtil.m; sourceTree = "<group>"; };
+		76F1ACC521A7EFCB004856BF /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
+		76F1ACC721A7EFCB004856BF /* AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AES.m; sourceTree = "<group>"; };
+		76F1ACC921A7EFCB004856BF /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		76F1ACCA21A7EFCB004856BF /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		76F1ACCB21A7EFCB004856BF /* AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES.h; sourceTree = "<group>"; };
+		76F1ACCD21A7EFCB004856BF /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		76F1ACCE21A7EFCB004856BF /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		76F1ACD021A7EFCB004856BF /* EncryptionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTool.h; sourceTree = "<group>"; };
+		76F1ACD121A7EFCB004856BF /* RSAEncryptionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptionTool.h; sourceTree = "<group>"; };
+		76F1ACD221A7EFCB004856BF /* EncryptionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTool.m; sourceTree = "<group>"; };
+		76F1ACD321A7EFCB004856BF /* RSAEncryptionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptionTool.m; sourceTree = "<group>"; };
+		76F1ACD521A7EFCB004856BF /* pkcs8_rsa_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pkcs8_rsa_private_key.pem; sourceTree = "<group>"; };
+		76F1ACD621A7EFCB004856BF /* rsa_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_private_key.pem; sourceTree = "<group>"; };
+		76F1ACD721A7EFCB004856BF /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76F1AC6021A7E890004856BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76F1AC5A21A7E890004856BF = {
+			isa = PBXGroup;
+			children = (
+				76F1AC6521A7E890004856BF /* LNDataSecurity */,
+				76F1AC6421A7E890004856BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76F1AC6421A7E890004856BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76F1AC6321A7E890004856BF /* LNDataSecurity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76F1AC6521A7E890004856BF /* LNDataSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				763AF47F21ACC5A50063F1F9 /* LNDataSecurity.entitlements */,
+				76F1ACB821A7EFCB004856BF /* 数据安全 */,
+				76F1AC8521A7EB4F004856BF /* 常用加密方法 */,
+				76F1AC7C21A7E8EB004856BF /* Other */,
+				76F1AC6C21A7E890004856BF /* Main.storyboard */,
+				76F1AC6F21A7E892004856BF /* Assets.xcassets */,
+				76F1AC7121A7E892004856BF /* LaunchScreen.storyboard */,
+				76F1AC7421A7E892004856BF /* Info.plist */,
+			);
+			path = LNDataSecurity;
+			sourceTree = "<group>";
+		};
+		76F1AC7C21A7E8EB004856BF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				76F1AC7D21A7E8EB004856BF /* AppDelegate.h */,
+				76F1AC8021A7E8EB004856BF /* AppDelegate.m */,
+				76F1AC7F21A7E8EB004856BF /* main.m */,
+				76F1AC8121A7E8EB004856BF /* ViewController.h */,
+				76F1AC7E21A7E8EB004856BF /* ViewController.m */,
+				761D95BE21AB7B9900BD0AA8 /* image1.png */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		76F1AC8521A7EB4F004856BF /* 常用加密方法 */ = {
+			isa = PBXGroup;
+			children = (
+				76F1AC8621A7EBA2004856BF /* LNCommonEncryptVC.h */,
+				76F1AC8721A7EBA2004856BF /* LNCommonEncryptVC.m */,
+				76F1ACB621A7EDD8004856BF /* LNCommonEncryptVC.xib */,
+			);
+			path = "常用加密方法";
+			sourceTree = "<group>";
+		};
+		76F1ACB821A7EFCB004856BF /* 数据安全 */ = {
+			isa = PBXGroup;
+			children = (
+				76F1ACB921A7EFCB004856BF /* 数据安全第一种方案 */,
+				76F1ACCF21A7EFCB004856BF /* 数据安全第二种方案 */,
+			);
+			path = "数据安全";
+			sourceTree = "<group>";
+		};
+		76F1ACB921A7EFCB004856BF /* 数据安全第一种方案 */ = {
+			isa = PBXGroup;
+			children = (
+				76F1ACC621A7EFCB004856BF /* AES */,
+				76F1ACBD21A7EFCB004856BF /* DES */,
+				76F1ACBA21A7EFCB004856BF /* MD5 */,
+				76F1ACC321A7EFCB004856BF /* RSA */,
+			);
+			path = "数据安全第一种方案";
+			sourceTree = "<group>";
+		};
+		76F1ACBA21A7EFCB004856BF /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				76F1ACBC21A7EFCB004856BF /* NSString+Hash.h */,
+				76F1ACBB21A7EFCB004856BF /* NSString+Hash.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		76F1ACBD21A7EFCB004856BF /* DES */ = {
+			isa = PBXGroup;
+			children = (
+				76F1ACBE21A7EFCB004856BF /* DES3Util.h */,
+				76F1ACC221A7EFCB004856BF /* DES3Util.m */,
+				76F1ACBF21A7EFCB004856BF /* GTMBase64.h */,
+				76F1ACC121A7EFCB004856BF /* GTMBase64.m */,
+				76F1ACC021A7EFCB004856BF /* GTMDefines.h */,
+			);
+			path = DES;
+			sourceTree = "<group>";
+		};
+		76F1ACC321A7EFCB004856BF /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				76F1ACD421A7EFCB004856BF /* RSA生成公钥私钥(一种RSAUtil.h) */,
+				76F1ACC521A7EFCB004856BF /* RSAUtil.h */,
+				76F1ACC421A7EFCB004856BF /* RSAUtil.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		76F1ACC621A7EFCB004856BF /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				76F1ACCB21A7EFCB004856BF /* AES.h */,
+				76F1ACC721A7EFCB004856BF /* AES.m */,
+				76F1ACC921A7EFCB004856BF /* NSData+Base64Additions.h */,
+				76F1ACCE21A7EFCB004856BF /* NSData+Base64Additions.m */,
+				76F1ACCA21A7EFCB004856BF /* NSData+CommonCrypto.h */,
+				76F1ACCD21A7EFCB004856BF /* NSData+CommonCrypto.m */,
+				763AF47C21ACC4B20063F1F9 /* NSString+Base64Additions.h */,
+				763AF47D21ACC4B20063F1F9 /* NSString+Base64Additions.m */,
+			);
+			path = AES;
+			sourceTree = "<group>";
+		};
+		76F1ACCF21A7EFCB004856BF /* 数据安全第二种方案 */ = {
+			isa = PBXGroup;
+			children = (
+				76F1ACD021A7EFCB004856BF /* EncryptionTool.h */,
+				76F1ACD221A7EFCB004856BF /* EncryptionTool.m */,
+				76F1ACD121A7EFCB004856BF /* RSAEncryptionTool.h */,
+				76F1ACD321A7EFCB004856BF /* RSAEncryptionTool.m */,
+			);
+			path = "数据安全第二种方案";
+			sourceTree = "<group>";
+		};
+		76F1ACD421A7EFCB004856BF /* RSA生成公钥私钥(一种RSAUtil.h) */ = {
+			isa = PBXGroup;
+			children = (
+				76F1ACD521A7EFCB004856BF /* pkcs8_rsa_private_key.pem */,
+				76F1ACD621A7EFCB004856BF /* rsa_private_key.pem */,
+				76F1ACD721A7EFCB004856BF /* rsa_public_key.pem */,
+			);
+			path = "RSA生成公钥私钥(一种RSAUtil.h)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76F1AC6221A7E890004856BF /* LNDataSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F1AC7921A7E892004856BF /* Build configuration list for PBXNativeTarget "LNDataSecurity" */;
+			buildPhases = (
+				76F1AC5F21A7E890004856BF /* Sources */,
+				76F1AC6021A7E890004856BF /* Frameworks */,
+				76F1AC6121A7E890004856BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNDataSecurity;
+			productName = LNDataSecurity;
+			productReference = 76F1AC6321A7E890004856BF /* LNDataSecurity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76F1AC5B21A7E890004856BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "不知名开发者";
+				TargetAttributes = {
+					76F1AC6221A7E890004856BF = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 76F1AC5E21A7E890004856BF /* Build configuration list for PBXProject "LNDataSecurity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76F1AC5A21A7E890004856BF;
+			productRefGroup = 76F1AC6421A7E890004856BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76F1AC6221A7E890004856BF /* LNDataSecurity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76F1AC6121A7E890004856BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F1AC7321A7E892004856BF /* LaunchScreen.storyboard in Resources */,
+				761D95BF21AB7B9900BD0AA8 /* image1.png in Resources */,
+				76F1ACE321A7EFCB004856BF /* rsa_private_key.pem in Resources */,
+				76F1ACB721A7EDD8004856BF /* LNCommonEncryptVC.xib in Resources */,
+				76F1ACE221A7EFCB004856BF /* pkcs8_rsa_private_key.pem in Resources */,
+				76F1AC7021A7E892004856BF /* Assets.xcassets in Resources */,
+				76F1ACE421A7EFCB004856BF /* rsa_public_key.pem in Resources */,
+				76F1AC6E21A7E890004856BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F1AC5F21A7E890004856BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F1ACE021A7EFCB004856BF /* EncryptionTool.m in Sources */,
+				76F1ACDB21A7EFCB004856BF /* RSAUtil.m in Sources */,
+				76F1AC8321A7E8EC004856BF /* main.m in Sources */,
+				76F1ACDE21A7EFCB004856BF /* NSData+CommonCrypto.m in Sources */,
+				76F1ACD921A7EFCB004856BF /* GTMBase64.m in Sources */,
+				76F1ACDA21A7EFCB004856BF /* DES3Util.m in Sources */,
+				763AF47E21ACC4B20063F1F9 /* NSString+Base64Additions.m in Sources */,
+				76F1ACDF21A7EFCB004856BF /* NSData+Base64Additions.m in Sources */,
+				76F1AC8221A7E8EC004856BF /* ViewController.m in Sources */,
+				76F1AC8421A7E8EC004856BF /* AppDelegate.m in Sources */,
+				76F1ACDC21A7EFCB004856BF /* AES.m in Sources */,
+				76F1ACD821A7EFCB004856BF /* NSString+Hash.m in Sources */,
+				76F1ACE121A7EFCB004856BF /* RSAEncryptionTool.m in Sources */,
+				76F1AC8821A7EBA2004856BF /* LNCommonEncryptVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76F1AC6C21A7E890004856BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F1AC6D21A7E890004856BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76F1AC7121A7E892004856BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F1AC7221A7E892004856BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76F1AC7721A7E892004856BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76F1AC7821A7E892004856BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76F1AC7A21A7E892004856BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LNDataSecurity/LNDataSecurity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4L76KBH9Z;
+				INFOPLIST_FILE = LNDataSecurity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CoderLN.LNDataSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76F1AC7B21A7E892004856BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LNDataSecurity/LNDataSecurity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4L76KBH9Z;
+				INFOPLIST_FILE = LNDataSecurity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CoderLN.LNDataSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76F1AC5E21A7E890004856BF /* Build configuration list for PBXProject "LNDataSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F1AC7721A7E892004856BF /* Debug */,
+				76F1AC7821A7E892004856BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F1AC7921A7E892004856BF /* Build configuration list for PBXNativeTarget "LNDataSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F1AC7A21A7E892004856BF /* Debug */,
+				76F1AC7B21A7E892004856BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76F1AC5B21A7E890004856BF /* Project object */;
+}
